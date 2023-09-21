@@ -28,6 +28,7 @@ export class CarrinhoService {
   
   limparCarrinho() {
     this.itens = [];
+    console.log("seila");
     localStorage.clear();
   }
 
